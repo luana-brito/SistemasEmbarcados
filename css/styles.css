@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+#loading-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+#content {
+  display: none;
+}
+
+#additional-page {
+  position: relative; /* Adicionado para controlar a posição do conteúdo em relação ao fundo */
+}
+
+#background-template {
+  background-image: url("/img/template.png"); /* Substitua pelo caminho da sua imagem de fundo */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px; /* Adicionado para garantir que o conteúdo não fique muito próximo das bordas */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#additional-page img {
+  margin-top: 0%;
+}
+
+#additional-page h2 {
+  color: #DADADA;
+  font-size: 22px;
+  text-align: center;
+}
+
+#additional-page p {
+  color: #797978;
+  font-size: 16px;
+  text-align: center;
+}
+
+#start-button {
+  background-color: #1414CB;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+  margin: auto; /* Adicionado para centralizar o botão */
+  display: block; /* Adicionado para ocupar a largura total disponível */
+}
+
+#start-button:hover {
+  background-color: #0c0c9a;
+}
+
